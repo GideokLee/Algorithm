@@ -5,6 +5,7 @@ using namespace std;
 /*
  세로읽기 10798
  https://www.acmicpc.net/problem/10798
+
 */
 
 int main() {
@@ -33,8 +34,6 @@ int main() {
 		}
 		togle = false;
 	}
-
 	cout << result;
-
 	return 0;
 }
