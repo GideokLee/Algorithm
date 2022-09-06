@@ -23,7 +23,7 @@ vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
             }
             temp1 /= 2;
         }
-        int size = 5 - r.length();
+        int size = n - r.length();
 
         for(int j = 0; j < size; j++){
             r.push_back(' ');
